@@ -4,7 +4,7 @@
 * Tags: facebook, twitter, twitter oauth, social timeline, facebook page, vimeo feed, pinterest feed, instagram, instagram oauth
 * Requires at least: 3.4
 * Tested up to: 4.3
-* Stable tag: 0.8.2
+* Stable tag: 0.8.3
 * License: GPLv2
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,7 @@ This plugin use our widgets template system, it makes easy to customize the look
 	<?php endforeach; ?>
 <?php endif; ?>
 `
+
 FB FIELDS:
 
 * `<?php echo $fb_page; ?>` -> FB Page link
@@ -70,6 +71,7 @@ FB FIELDS:
 	HERE HTML & TWITTER FIELDS
 <?php endforeach; ?>
 `
+
 TW FIELDS:
 
 * `<?php echo $twitter ?>` -> TW user link
